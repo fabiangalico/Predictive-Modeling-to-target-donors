@@ -43,8 +43,6 @@
 * Variables chosen : Recency_donation,genderU,genderS,genderF,mean_donation
 * Once the variables were selected Logistic Regression model was created and AUC was predicted from the same
 
-![Alt](\C:\Users\fgalicojustitz\Desktop\Picture1.png)
-
 ## Evaluation and Business Case
 
  * Population: 44,686
