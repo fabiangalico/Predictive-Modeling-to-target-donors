@@ -45,12 +45,12 @@
 
 ## Evaluation and Business Case
 
- * Population: 44,686
- * Target Incidence: 1%
- * Reward: 46.5 Euros
- * Cost Campaign: 0.5 Euros
- * Percentage selected: 10%
- * Lift: 2
+ Population: 44,686
+ Target Incidence: 1%
+ Reward: 46.5 Euros
+ Cost Campaign: 0.5 Euros
+ Percentage selected: 10%
+ Lift: 2
 
 * Benefit = 46.5 * 0.1 * (2 * 0.01) * 44,686 = 4,156
 * Cost = 0.5 * 0.1 * 44,686 = 2,234
