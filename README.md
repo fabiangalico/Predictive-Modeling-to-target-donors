@@ -1,9 +1,9 @@
-# Predictive-Modelling-to-target-donors
+# Predictive-Modeling-to-target-donors
 
 ## Project Definition
-* The goal of the project is to help DSC (Non Profit organisation) target the customers that are more likely to donate during their next reactivation campaign.The target would be only those customers who are likely to donate more than 35 euro’s.
+* The goal of the project is to help DSC (Non Profit organisation) target the donors that are more likely to donate during their next reactivation campaign.The target would be only those donors who are likely to donate more than 35 euro’s.
 
-* We would be using forward-stepwise selection model to predict the number of customer for the next reactivation campaign
+* We would be using forward-stepwise selection model to predict the number of donors for the next reactivation campaign.
 
 * Data used for prediction:
   * Donors.csv – general information about donors
