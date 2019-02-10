@@ -3,7 +3,7 @@
 ## Project Definition
 * The goal of the project is to help DSC (Non Profit organisation) target the donors that are more likely to donate during their next reactivation campaign.The target would be only those donors who are likely to donate more than 35 euro’s.
 
-* We would be using forward-stepwise selection and logistic regresion model to predict the number of donors for the next reactivation campaign.
+* We would be using forward-stepwise selection and logistic regression model to predict the number of donors for the next reactivation campaign.
 
 * Data used for prediction:
   * Donors.csv – general information about donors
