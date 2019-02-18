@@ -37,11 +37,15 @@
 * From gender, gender M was deleted
 * From the regions SouthBelgium was deleted
 
+<img src="img/corr.png" width="400">
+
 ## Model Building
 
 * Forward Stepwise selection model was used to select the variables, and based on the AUC graph the following variables were chosen to determine the AUC 
 * Variables chosen : Recency_donation,genderU,genderS,genderF,mean_donation
 * Once the variables were selected Logistic Regression model was created and AUC was predicted from the same
+
+<img src="img/auc.PNG" width="400">
 
 ## Evaluation and Business Case
 
@@ -52,18 +56,30 @@
  Percentage selected: 10% |
  Lift: 2
 
+<img src="img/lift.PNG" width="400">
+
 * Benefit = 46.5 * 0.1 * (2 * 0.01) * 44,686 = 4,156
 * Cost = 0.5 * 0.1 * 44,686 = 2,234
 
 * Profit = 1,922 Euros
 * Profit without the model = -156 Euros
 
+<img src="img/cummulative curve.PNG" width="400">
+
 ## Predictor Insight Graphs
 
 * Donators that donated more recently are more likely to donate more than 35 Euros in the next reactivation campaign.
+<img src="img/recency.png" width="400">
+
 * Donators with higher mean amount donated from past donations are more likely to donate more than 35 Euros in the next reactivation campaign.
+<img src="img/mean.png" width="400">
+
 * Donators with Gender U and Gender S are less likely to donate more than 35 Euros in the next reactivation campaign. This variables represent a small part of the Gender variable, so we assume that they refer to donators whose gender was not collected (maybe they didn't want to give this information).
+<img src="img/genderU.png" width="400">
+<img src="img/genderS.png" width="400">
+
 * Females are slightly more likely to donate more than 35 Euros in the next reactivation campaign.
+<img src="img/genderF.png" width="400">
 
 ## Conclusions
 
